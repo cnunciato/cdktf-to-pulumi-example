@@ -1,0 +1,10 @@
+name: cdktf-to-pulumi
+description: Converted from CDKTF to Pulumi TypeScript
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
