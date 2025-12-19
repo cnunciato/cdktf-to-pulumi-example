@@ -1,0 +1,4 @@
+config:
+  aws:region: us-west-2
+  cdktf-to-pulumi:instanceType: t3.micro
+  cdktf-to-pulumi:vpcNetworkCidr: 10.0.0.0/16
